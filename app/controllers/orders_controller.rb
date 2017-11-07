@@ -12,6 +12,7 @@ class OrdersController < ApplicationController
   # GET /orders
   # GET /orders.json
 
+
   # GET /orders/1
   # GET /orders/1.json
 
@@ -47,8 +48,7 @@ class OrdersController < ApplicationController
 
   # PATCH/PUT /orders/1
   # PATCH/PUT /orders/1.json
-  # DELETE /orders/1
-  # DELETE /orders/1.json
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
