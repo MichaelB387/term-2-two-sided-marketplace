@@ -1,2 +1,3 @@
 class Order < ApplicationRecord
-end
+  validates :address, :city, :state, presence: true
+end 
