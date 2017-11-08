@@ -1,5 +1,8 @@
 <div class="center">
   <div class="row">
+    <% if (@listings.empty?) %>
+      <h2>Unfortunately your request is not available</h2>
+    <% else %>
     <% @listings.each do |listing| %>
       <div class="col-md-3">
         <div class="thumbnail">
@@ -14,4 +17,7 @@
       </div>
     <% end %>
   </div>
+<% end %>
 </div>    
+
+<%= link_to 'Back', listings_path, class: "btn btn-link" %>
