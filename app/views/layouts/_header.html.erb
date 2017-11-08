@@ -22,7 +22,10 @@
     <%= submit_tag  "Search", name: nil, class: "btn btn-default" %>
   </p>
 <% end %>
+
     <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item nav-link"><%= link_to "Wanted", chat_path %></li>
+
       <% if user_signed_in? %>
         <li><%= link_to "Manage Listings", seller_path %></li>
         <li class="dropdown">
