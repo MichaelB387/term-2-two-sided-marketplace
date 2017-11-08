@@ -16,6 +16,12 @@
       <li><%= link_to "About", pages_about_path %></li>
       <li><%= link_to "Contact", pages_contact_path %></li>
     </ul>
+    <%= form_tag search_listings_path, method: :get, class: "navbar-form navbar-left" do %>
+  <p>
+    <%= text_field_tag :search, params[:search], class: "form-control" %>
+    <%= submit_tag  "Search", name: nil, class: "btn btn-default" %>
+  </p>
+<% end %>
     <ul class="nav navbar-nav navbar-right">
       <% if user_signed_in? %>
         <li><%= link_to "Manage Listings", seller_path %></li>
@@ -35,5 +41,9 @@
     </ul>
   </div>
 </nav>
+
+
+
+
 
 

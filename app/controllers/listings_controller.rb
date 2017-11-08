@@ -14,6 +14,14 @@ class ListingsController < ApplicationController
 
   # GET /listings/1
   # GET /listings/1.json
+  def search
+    if params[:search].present?
+      @listings = Listing.search(params[:search])
+    else
+      @listings = Listing.all
+    end
+  end
+  
   def show
   end
 
