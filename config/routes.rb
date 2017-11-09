@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
+  resources :charges
   resources :listings do
     resources :orders, only: [:new, :create]
     collection do

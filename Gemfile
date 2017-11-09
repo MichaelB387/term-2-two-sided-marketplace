@@ -16,10 +16,11 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
+gem 'stripe'
 # gem 'bcrypt', '~> 3.1.7'
 gem "paperclip", "~> 5.0.0"
 gem 'searchkick'
-gem 'rails_12factor', group: :production
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
