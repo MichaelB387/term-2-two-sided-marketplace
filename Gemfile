@@ -20,6 +20,8 @@ gem 'stripe'
 # gem 'bcrypt', '~> 3.1.7'
 gem "paperclip", "~> 5.0.0"
 gem 'searchkick'
+gem 'rails_12factor', group: :production
+gem 'rails-erd', require: false, group: :development
 
 
 group :development, :test do

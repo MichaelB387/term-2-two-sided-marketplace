@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# The Rental Place
 
-Things you may want to cover:
+The rental place is an app that is designed for users to make use of items that they are not using and make them available for rent to other users for a profit.
 
-* Ruby version
+The marketplace will manage the listings and transactions between users.
 
-* System dependencies
 
-* Configuration
+## Wireframe
+[figma](https://www.figma.com/file/gfXhnUVDS4IdWzFz2XZF4J6U/Rental-2-sided-market-place)
 
-* Database creation
+## User Stories
+[trello user stories](https://trello.com/b/wKEC3rSO/just-rent-it)
 
-* Database initialization
+## Basic ERD
 
-* How to run the test suite
+![image](https://user-images.githubusercontent.com/30610205/32642334-d4b106a6-c627-11e7-97d9-7c1c73051879.png)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Issues
 
-* ...
+- Payment intergration is not functioning correctly, this needs to be changed to the stripe connect capability.
+
+- Images need to be uploaded to S3 
+
+- Heroku depolyment not working properly
+
+- ERD needs to be redesigned as original had been deleted some how
+
