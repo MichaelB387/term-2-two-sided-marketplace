@@ -28,3 +28,5 @@ The marketplace will manage the listings and transactions between users.
 
 - ERD needs to be redesigned as original had been deleted some how
 
+- Add pick up location and map
+
